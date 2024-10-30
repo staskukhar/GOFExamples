@@ -26,6 +26,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.Console", "Creation
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder.DesignPattern", "Creational\Builder\Builder.DesignPattern\Builder.DesignPattern.csproj", "{07C1771A-9656-4DD0-9B5D-A92F2601003F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{296B62EF-E1AB-4089-A15A-92C2F26E6267}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{43ECD795-BAC3-4EF3-BBF6-ABB50C95A6B1}"
+	ProjectSection(SolutionItems) = preProject
+		Structural\Adapter\readme.md = Structural\Adapter\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.DesignPattern", "Structural\Adapter\Adapter.DesignPattern\Adapter.DesignPattern.csproj", "{F0B97B3C-CA25-47F2-B837-68E3933E65EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Console", "Structural\Adapter\Adapter.Console\Adapter.Console.csproj", "{C7D0ADEC-679E-4145-B3E4-B679BDBF494C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +70,14 @@ Global
 		{07C1771A-9656-4DD0-9B5D-A92F2601003F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C1771A-9656-4DD0-9B5D-A92F2601003F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C1771A-9656-4DD0-9B5D-A92F2601003F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B97B3C-CA25-47F2-B837-68E3933E65EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B97B3C-CA25-47F2-B837-68E3933E65EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B97B3C-CA25-47F2-B837-68E3933E65EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B97B3C-CA25-47F2-B837-68E3933E65EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D0ADEC-679E-4145-B3E4-B679BDBF494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D0ADEC-679E-4145-B3E4-B679BDBF494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D0ADEC-679E-4145-B3E4-B679BDBF494C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D0ADEC-679E-4145-B3E4-B679BDBF494C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20537D44-CBBA-40FE-8B4E-4225F5BBE8D2} = {F7345594-897B-4FD9-81A7-34055BEDC1FE}
@@ -70,5 +89,8 @@ Global
 		{016FD52F-C31B-40E6-8F81-86BC894DF778} = {F7345594-897B-4FD9-81A7-34055BEDC1FE}
 		{8571E985-A9F0-4CBC-911E-AB3A8CF46EB2} = {016FD52F-C31B-40E6-8F81-86BC894DF778}
 		{07C1771A-9656-4DD0-9B5D-A92F2601003F} = {016FD52F-C31B-40E6-8F81-86BC894DF778}
+		{43ECD795-BAC3-4EF3-BBF6-ABB50C95A6B1} = {296B62EF-E1AB-4089-A15A-92C2F26E6267}
+		{F0B97B3C-CA25-47F2-B837-68E3933E65EA} = {43ECD795-BAC3-4EF3-BBF6-ABB50C95A6B1}
+		{C7D0ADEC-679E-4145-B3E4-B679BDBF494C} = {43ECD795-BAC3-4EF3-BBF6-ABB50C95A6B1}
 	EndGlobalSection
 EndGlobal
