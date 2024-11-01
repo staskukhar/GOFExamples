@@ -46,6 +46,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.Console", "Struct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DesignPattern", "Structural\Decorator\Decorator.DesignPattern\Decorator.DesignPattern.csproj", "{4ADC5943-74B3-400C-B61C-90C2B53D70E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{01F1CC50-F2E8-458E-9CCF-7D74E50B73D2}"
+	ProjectSection(SolutionItems) = preProject
+		Structural\Composite\readme.md = Structural\Composite\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.DesignPattern", "Structural\Composite\Composite.DesignPattern\Composite.DesignPattern.csproj", "{C2CC3397-60B7-4631-A303-E1C5662DB667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Console", "Structural\Composite\Composite.Console\Composite.Console.csproj", "{77E1BF93-311B-4EF0-943A-5E49AB9F146B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +104,14 @@ Global
 		{4ADC5943-74B3-400C-B61C-90C2B53D70E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ADC5943-74B3-400C-B61C-90C2B53D70E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ADC5943-74B3-400C-B61C-90C2B53D70E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CC3397-60B7-4631-A303-E1C5662DB667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC3397-60B7-4631-A303-E1C5662DB667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC3397-60B7-4631-A303-E1C5662DB667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC3397-60B7-4631-A303-E1C5662DB667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E1BF93-311B-4EF0-943A-5E49AB9F146B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E1BF93-311B-4EF0-943A-5E49AB9F146B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E1BF93-311B-4EF0-943A-5E49AB9F146B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E1BF93-311B-4EF0-943A-5E49AB9F146B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20537D44-CBBA-40FE-8B4E-4225F5BBE8D2} = {F7345594-897B-4FD9-81A7-34055BEDC1FE}
@@ -112,5 +129,8 @@ Global
 		{FAE4A505-D8AE-46BE-AA9B-D102355FC97E} = {296B62EF-E1AB-4089-A15A-92C2F26E6267}
 		{AE53E52C-8792-42A3-9C39-1FB6C2D94794} = {FAE4A505-D8AE-46BE-AA9B-D102355FC97E}
 		{4ADC5943-74B3-400C-B61C-90C2B53D70E2} = {FAE4A505-D8AE-46BE-AA9B-D102355FC97E}
+		{01F1CC50-F2E8-458E-9CCF-7D74E50B73D2} = {296B62EF-E1AB-4089-A15A-92C2F26E6267}
+		{C2CC3397-60B7-4631-A303-E1C5662DB667} = {01F1CC50-F2E8-458E-9CCF-7D74E50B73D2}
+		{77E1BF93-311B-4EF0-943A-5E49AB9F146B} = {01F1CC50-F2E8-458E-9CCF-7D74E50B73D2}
 	EndGlobalSection
 EndGlobal
