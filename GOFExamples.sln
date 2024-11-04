@@ -73,6 +73,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.Console", "Structural
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy.DesignPattern", "Structural\Proxy\Proxy.DesignPattern\Proxy.DesignPattern.csproj", "{1531DA11-0E8F-4E3F-9479-C1B45B7651FD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{D995CA3E-5B4F-4122-96C7-A846EDF7A36F}"
+	ProjectSection(SolutionItems) = preProject
+		Structural\Bridge\readme.md = Structural\Bridge\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.DesignPattern", "Structural\Bridge\Bridge.DesignPattern\Bridge.DesignPattern.csproj", "{89A68D95-F54E-4A38-AD83-67F065F84CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Console", "Structural\Bridge\Bridge.Console\Bridge.Console.csproj", "{57A26996-24E3-48EF-BB3A-6B82CF704B8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +155,14 @@ Global
 		{1531DA11-0E8F-4E3F-9479-C1B45B7651FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1531DA11-0E8F-4E3F-9479-C1B45B7651FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1531DA11-0E8F-4E3F-9479-C1B45B7651FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A68D95-F54E-4A38-AD83-67F065F84CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A68D95-F54E-4A38-AD83-67F065F84CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A68D95-F54E-4A38-AD83-67F065F84CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A68D95-F54E-4A38-AD83-67F065F84CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A26996-24E3-48EF-BB3A-6B82CF704B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A26996-24E3-48EF-BB3A-6B82CF704B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A26996-24E3-48EF-BB3A-6B82CF704B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A26996-24E3-48EF-BB3A-6B82CF704B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20537D44-CBBA-40FE-8B4E-4225F5BBE8D2} = {F7345594-897B-4FD9-81A7-34055BEDC1FE}
@@ -172,5 +189,8 @@ Global
 		{7E189702-FD5A-498A-839B-29D50B3BA6D8} = {296B62EF-E1AB-4089-A15A-92C2F26E6267}
 		{2C86E813-B3CC-47A1-A7C1-4EFD94D1D5FD} = {7E189702-FD5A-498A-839B-29D50B3BA6D8}
 		{1531DA11-0E8F-4E3F-9479-C1B45B7651FD} = {7E189702-FD5A-498A-839B-29D50B3BA6D8}
+		{D995CA3E-5B4F-4122-96C7-A846EDF7A36F} = {296B62EF-E1AB-4089-A15A-92C2F26E6267}
+		{89A68D95-F54E-4A38-AD83-67F065F84CA0} = {D995CA3E-5B4F-4122-96C7-A846EDF7A36F}
+		{57A26996-24E3-48EF-BB3A-6B82CF704B8E} = {D995CA3E-5B4F-4122-96C7-A846EDF7A36F}
 	EndGlobalSection
 EndGlobal
