@@ -102,6 +102,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.DesignPattern", "Be
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Console", "Behavioral\Command\Command.Console\Command.Console.csproj", "{C27A464E-67F4-48B9-8C7B-5BD185CB5527}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{DD982101-C87B-4DBC-8162-1952E42B9893}"
+	ProjectSection(SolutionItems) = preProject
+		Behavioral\Strategy\readme.md = Behavioral\Strategy\readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.Console", "Behavioral\Strategy\Strategy.Console\Strategy.Console.csproj", "{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy.DesignPattern", "Behavioral\Strategy\Strategy.DesignPattern\Strategy.DesignPattern.csproj", "{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -199,6 +208,14 @@ Global
 		{C27A464E-67F4-48B9-8C7B-5BD185CB5527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27A464E-67F4-48B9-8C7B-5BD185CB5527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27A464E-67F4-48B9-8C7B-5BD185CB5527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{20537D44-CBBA-40FE-8B4E-4225F5BBE8D2} = {F7345594-897B-4FD9-81A7-34055BEDC1FE}
@@ -234,5 +251,8 @@ Global
 		{383ACF81-485F-4BF3-83B3-C083B70053D0} = {E32F960E-1675-4E04-A115-B5B71BE51425}
 		{8111D0D6-CAC4-4C60-A952-67201C4C3370} = {383ACF81-485F-4BF3-83B3-C083B70053D0}
 		{C27A464E-67F4-48B9-8C7B-5BD185CB5527} = {383ACF81-485F-4BF3-83B3-C083B70053D0}
+		{DD982101-C87B-4DBC-8162-1952E42B9893} = {E32F960E-1675-4E04-A115-B5B71BE51425}
+		{738EDC97-1FEA-4D3B-8A1E-1E562089AD9F} = {DD982101-C87B-4DBC-8162-1952E42B9893}
+		{06DE61BE-1F3A-4C36-98EF-C436FB4B50CF} = {DD982101-C87B-4DBC-8162-1952E42B9893}
 	EndGlobalSection
 EndGlobal
